@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import NavBar from './navbar'
 
 export default function Home() {
   return (
+    <div className={styles.container}>
+      <NavBar/>
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -26,17 +29,6 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
       </div>
 
       <div className={styles.grid}>
@@ -91,5 +83,6 @@ export default function Home() {
         </a>
       </div>
     </main>
+    </div>
   )
 }
