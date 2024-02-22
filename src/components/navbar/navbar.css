@@ -1,13 +1,15 @@
 .logo-image {
-    margin-right: 10px;
-    width: 300px;
+    
+    width: 15rem;
     height: auto;
   }
   
   .navbar-container {
+    width: 100%;
     display: flex;
-    justify-content: normal;
+    justify-content:space-between;
     align-items: center;
+    
   }
   
   .nav-link {
@@ -15,4 +17,13 @@
     margin: 5px;
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+  
+  }
+
+  .nav-link:hover
+  {
+    opacity: 0.5;
+    cursor: pointer;
   }
