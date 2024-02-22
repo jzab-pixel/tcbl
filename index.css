@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  @font-face {
+    font-family: "Chirp-bold";
+    src: local("Chirp-bold"),
+      url(../src/fonts/chirp-bold-web.woff) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Chirp-regular";
+    src: local("Chirp-regular"),
+      url(../src/fonts/chirp-regular-web.woff) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Chirp-medium";
+    src: local("Chirp-medium"),
+      url(../src/fonts/chirp-medium-web.woff) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Chirp-heavy";
+    src: local("Chirp-heavy"),
+      url(../src/fonts/chirp-heavy-web.woff) format("truetype");
+  }
+  
