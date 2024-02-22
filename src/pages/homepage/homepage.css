@@ -1,0 +1,90 @@
+.homepageContainer {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .circleText {
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-family: "Chirp-regular";
+  }
+  
+  .circleContainer {
+    /* set it to relative so the text can be positioned relative to the container */
+    display: flex;
+    gap: 5vh;
+    flex-direction: column;
+    align-items: center; /* This centers the children horizontally */
+    justify-content: center; /* This centers the children vertically */
+    transition: transform 0.5s;
+  }
+  
+  .circleContainer:hover .circleText {
+    opacity: 1;
+  }
+  
+  .circleImage {
+    border-radius: 50%;
+    height: 60vh;
+    width: 60vh;
+    background-color: white;
+  }
+  
+  #homepageLeftCircle:hover {
+    transform: translateX(-10vw);
+  }
+  
+  #homepageRightCircle:hover {
+    transform: translateX(10vw);
+  }
+  
+  .circleImage:hover {
+    transform: scale(1.1);
+    z-index: 1000;
+    border: 1vh solid #404e36;
+  }
+  
+  #homepageCenterCircle {
+    z-index: 2;
+  }
+  
+  #homepageRightCircle {
+    margin-left: -20vw;
+    z-index: 1;
+  }
+  
+  #homepageLeftCircle {
+    margin-right: -20vw;
+    z-index: 1;
+  }
+  
+  @media (max-width: 767px) {
+    .circles {
+      flex-direction: column;
+    }
+  
+    .circleImage {
+      width: 35vh;
+      height: 35vh;
+    }
+  
+    #homepageRightCircle {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: -20vh;
+    }
+    #homepageLeftCircle {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: -20vh;
+    }
+  }
+  

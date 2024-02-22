@@ -1,0 +1,26 @@
+.visit-visitSection {
+    background-color: #ebe4df;
+    width: 100%;
+    margin: 3vh;
+    font-family: "Chirp-regular", sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+  
+  .visit-visitSectionTitle {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0;
+    color: #65605d;
+  }
+  
+  .visit-visitSectionText {
+    margin: 10px 0;
+    color: black;
+  }
+  
+  /* Additional styling for a clean and modern look */
+  body {
+    background-color: #ebe4df;
+  }
+    

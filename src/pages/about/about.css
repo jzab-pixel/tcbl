@@ -1,0 +1,42 @@
+.about-aboutSection {
+    background-color: #f4f4f4;
+    width: 40vw;
+    font-family: "Chirp-regular", sans-serif;
+    font-size: 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Subdued grey border */
+  }
+  
+  .about-aboutSectionTitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 1%;
+    color: #333; /* Dark grey text color */
+  }
+  
+  .about-aboutSectionText {
+    margin: 1%;
+    color: #555; /* Slightly darker grey text color */
+  }
+  
+  .about-aboutHeader {
+    font-weight: bold;
+    color: #111; /* Black text color */
+  }
+  
+  .about-aboutSectionBottom {
+    border: 1px solid #ccc; /* Subdued grey border */
+    background-color: #f4f4f4;
+    width: 80vw;
+    font-family: "Chirp-regular", sans-serif;
+    font-size: 16px;
+    column-count: 2;
+    column-gap: 20px;
+    overflow: auto;
+    border-radius: 5px;
+    margin: 20px auto;
+  }
+  
+  /* Add more styles as needed for a cohesive design */
+  
