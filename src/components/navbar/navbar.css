@@ -1,6 +1,6 @@
 .logo-image {
     
-    width: 15rem;
+    width: 12rem;
     height: auto;
   }
   
@@ -13,8 +13,10 @@
   }
   
   .nav-link {
-    font-size: 20px;
-    margin: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     color: white;
     text-decoration: none;
     font-size: 1.2rem;

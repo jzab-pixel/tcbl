@@ -22,22 +22,22 @@ function NavigationBar() {
         </Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Link as={Link} to="/Visit" className="nav-link">
-            Visit
+            VISIT
           </Nav.Link>
           <Nav.Link as={Link} to="/MuseumGallery" className="nav-link">
-            Exhibitions
+            EXHIBITIONS
           </Nav.Link>
           <Nav.Link as={Link} to="/Learn" className="nav-link">
-            Learn
+            LEARN
           </Nav.Link>
           <Nav.Link as={Link} to="/GetInvolved" className="nav-link">
-            Get Involved
+            GET INVOLVED
           </Nav.Link>
           <Nav.Link as={Link} to="/Support" className="nav-link">
-            Support
+            SUPPORT
           </Nav.Link>
           <Nav.Link as={Link} to="/About" className="nav-link">
-            About
+            ABOUT
           </Nav.Link>
         </Nav>
       </Container>
