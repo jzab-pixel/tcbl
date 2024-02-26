@@ -6,6 +6,11 @@ const exhibitionsData = [
   { id: 2, title: "Exhibition 2", date: "2024-03-10", status: "upcoming" },
   { id: 3, title: "Exhibition 3", date: "2023-10-01", status: "past" },
   { id: 4, title: "Exhibition 4", date: "2023-10-05", status: "current" },
+  { id: 5, title: "Exhibition 5", date: "2020-10-09", status: "past"},
+  { id: 5, title: "Exhibition 5", date: "2020-10-09", status: "past"},
+  { id: 5, title: "Exhibition 5", date: "2020-10-09", status: "past"},
+  { id: 5, title: "Exhibition 5", date: "2020-10-09", status: "past"}
+
   // Add more exhibition data as needed
 ];
 

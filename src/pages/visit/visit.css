@@ -1,17 +1,11 @@
 .visit-visitSection {
-    background-color: #ebe4df;
-    /*width: 42rem;*/
     width: 100%;
-    /*margin-left: 0 !important;*/
     font-family: "Chirp-regular", sans-serif;
-    /*margin-left: 20rem;
-    padding-left: 4rem;
-    padding-right: 4rem;*/
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    border: solid 0.5px #ccc;
     
   }
   #welcomeBox
@@ -20,26 +14,22 @@
     margin-left: 20rem !important;
     line-height: 1.5;
     padding:4rem;
-    background-color: #785e4b;
+    background-color: #000000;
     margin-top: 2rem;
-    color: #fff !important;
+    color: #ffffff !important;
+    
   }
 
 
   .visit-visitSectionTitle {
     font-size: 1.8rem;
-    color: #000000;
+    color: #ffffff;
 
   }
   
   .visit-visitSectionText {
     margin: 10px 0;
-    color: #000000;
+    color: #ffffff;
 
   }
   
-  /* Additional styling for a clean and modern look */
-  body {
-    background-color: #ebe4df;
-  }
-    

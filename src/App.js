@@ -33,7 +33,8 @@ function RoutesWithTransition() {
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#ebe4df" }}>
+   /* #ebe4df */
+    <div style={{ backgroundColor: "#282c3d" }}>
       <BrowserRouter>
         <Navbar />
         <RoutesWithTransition />

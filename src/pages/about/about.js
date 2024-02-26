@@ -1,9 +1,10 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
+import { CloseButton } from "react-bootstrap";
 
 function About() {
   return (
-    <div style={{ width: "80vw", margin: "20px auto" }}>
+    <div style={{ width: "80vw",marginTop: "1rem", marginLeft:"auto", marginRight:"auto"}}>
       <div
         style={{
           display: "flex",
@@ -12,7 +13,13 @@ function About() {
           margin: "0px",
         }}
       >
-        <div className="about-aboutSection">
+        <div className="about-aboutSection" style={{
+          backgroundColor:"#000",
+          padding: "1rem",
+          color:"#fff",
+          marginBottom: "1rem"
+
+        }}>
           <div className="about-aboutSectionTitle">About</div>
           <div className="about-aboutSectionText">
           In the late 90’s Charles Kendrick and his friend Shad Blair combined their extensive collections of historical items and put them on display, free of charge and embarked on an aspiration to open the very 1st Afro American Museum in Tucson, AZ .
@@ -28,7 +35,13 @@ function About() {
           </div>
         </div>
         <div>
-          <div className="about-aboutSection">
+          <div className="about-aboutSection" style={{
+          backgroundColor:"#000",
+          padding: "1rem",
+          color:"#fff",
+          marginBottom: "1rem"
+
+        }}>
             <div className="about-aboutSectionText">
               <div className="about-aboutSectionTitle">Mission</div>
               Our Mission for The Tucson Center for Black Life is to re- create and sustain a cultural center and museum that is dedicated to advancing a comprehensive understanding of Black life in the Southwest; past, present, and future. 
@@ -36,8 +49,13 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <div
-        className="about-aboutSectionBottom"
+       <div
+        className="about-aboutSectionBottom" style={{
+          backgroundColor:"#000",
+          padding: "1rem",
+          color:"#fff !important",
+         
+        }}
       >
         <div className="about-aboutSectionText">
           <div className="about-aboutSectionTitle">
@@ -97,7 +115,7 @@ function About() {
           practitioners together to create tools and guidance regarding the
           platform’s development.
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -14,7 +14,8 @@ function NavigationBar() {
       expand="lg"
       variant="dark"
       className="Navigation"
-      style={{ backgroundColor: "#785e4b" }}
+      /*#785e4b*/
+      style={{ backgroundColor: "#000" , position: "sticky", top: "0"}}  
     >
       <Container className="navbar-container">
         <Navbar.Brand as={Link} to="/" className="logo">
