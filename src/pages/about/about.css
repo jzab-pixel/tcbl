@@ -1,26 +1,29 @@
 body{
-  background-color: #282c3d;
+  background-color: #2b2e3c;
+ 
 }
 
 .about-aboutSection {
-    background-color: #000000;
+    background-color: #353848;
     width: 40vw;
     font-family: "Chirp-regular", sans-serif;
     font-size: 1.2rem;
-    border: 1px solid #ffffff; /* Subdued grey border */
+    border: 0.4px solid #ffffff; /* Subdued grey border */
     color: #fff;
+    line-height: 1.2;
+    margin-bottom: 1rem;
     
   }
   
   .about-aboutSectionTitle {
     font-weight: bold;
-    font-size: 24px; 
+    font-size: 1.8rem; 
     color: #ffffff; /* Dark grey text color */
 
   }
   
   .about-aboutSectionText {
-    margin: 1%;
+    margin: 1rem;
     color: #ffffff; /* Slightly darker grey text color */
   }
   
@@ -30,8 +33,8 @@ body{
   }
   
   .about-aboutSectionBottom {
-    border: 1px solid #ccc; /* Subdued grey border */
-    background-color: #282c3d;
+    border: 0.4px solid #ccc; /* Subdued grey border */
+    background-color: #353848;
     width: 80vw;
     font-family: "Chirp-regular", sans-serif;
     font-size: 1.2rem;
@@ -39,19 +42,18 @@ body{
     column-gap: 20px;
     overflow: auto;
     border-radius: 5px;
-    margin: auto;
-    margin-bottom: 1rem;
+    
+    line-height: 1.2;
   }
 
-  .about-aboutSection a{
-    text-decoration: none;
-    font-weight: bold;
-    color: white
-  }
-
-  .about-aboutSection a:hover{
-    text-decoration:underline;
-  }
   
   /* Add more styles as needed for a cohesive design */
-  
+  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  a:hover{
+    opacity: 0.5;
+  }

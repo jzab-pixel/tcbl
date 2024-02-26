@@ -25,11 +25,13 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "bootstrap-icons-react": "^1.0.0",
     "css-loader": "^6.9.0",
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-router-dom": "^6.21.1",
     "style-loader": "^3.3.4"
   }

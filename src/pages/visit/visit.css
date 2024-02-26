@@ -10,12 +10,13 @@
   }
   #welcomeBox
   {
-    width: 42rem !important;
-    margin-left: 20rem !important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.5;
-    padding:4rem;
-    background-color: #000000;
-    margin-top: 2rem;
+    background-color: #353848;
+    margin-top: 30vh;
+    padding: 5rem;
     color: #ffffff !important;
     
   }
@@ -33,3 +34,7 @@
 
   }
   
+
+  body{
+    height: 100vh;
+  }

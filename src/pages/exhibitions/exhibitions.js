@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Search } from 'bootstrap-icons-react';
+import { FaPencilAlt } from 'react-icons/fa';
 import "./exhibitions.css"; // Import the CSS file
 
 const exhibitionsData = [
@@ -60,9 +62,13 @@ const MuseumGallery = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearch}>
+          <Search />
+        </button>
   
-        <button onClick={handleResetSearch}>Reset</button>
+        <button onClick={handleResetSearch}>
+          <FaPencilAlt />
+        </button>
       </div>
 
       <div className="filter-buttons">

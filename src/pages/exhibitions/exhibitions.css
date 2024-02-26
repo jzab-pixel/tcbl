@@ -15,6 +15,7 @@ body {
   
   .search-bar {
     margin-bottom: 20px;
+    
   }
   
   .search-bar input {
@@ -22,6 +23,8 @@ body {
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 80%;
+    border-radius: 8px;
   }
   
   .search-bar button {
@@ -67,10 +70,9 @@ body {
     width: 30%;
     padding: 15px;
     margin: 10px 0;
-    background-color: #000000;
+    background-color: #353848;
     border: 1px solid #ccc;
     color: #fff;
-    border-radius: 8px;
   }
   
   .card h3 {

@@ -14,7 +14,6 @@ function About() {
         }}
       >
         <div className="about-aboutSection" style={{
-          backgroundColor:"#000",
           padding: "1rem",
           color:"#fff",
           marginBottom: "1rem"
@@ -36,7 +35,6 @@ function About() {
         </div>
         <div>
           <div className="about-aboutSection" style={{
-          backgroundColor:"#000",
           padding: "1rem",
           color:"#fff",
           marginBottom: "1rem"
@@ -51,7 +49,6 @@ function About() {
       </div>
        <div
         className="about-aboutSectionBottom" style={{
-          backgroundColor:"#000",
           padding: "1rem",
           color:"#fff !important",
          
