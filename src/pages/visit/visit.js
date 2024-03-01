@@ -4,7 +4,7 @@ import "./visit.css";
 // Component for the Visit section
 function HoursSection() {  
     return (
-      <div className="visit-visitSection" style={{padding: "1rem", backgroundColor: "#353848"}}>
+      <div className="visit-visitSection" style={{padding: "1rem", backgroundColor: "#eee"}}>
         <div className="visit-visitSectionTitle">Hours & Location</div>
         <div className="visit-visitSectionText">
         1834 S. Park Ave<br></br>
@@ -19,7 +19,7 @@ function HoursSection() {
 // Component for the Elements section
 function EntrySection() {  
     return (
-      <div className="visit-visitSection" style={{padding: "1rem", backgroundColor: "#353848"}}>
+      <div className="visit-visitSection" style={{padding: "1rem", backgroundColor: "#eee"}}>
         <div className="visit-visitSectionText">
           <div className="visit-visitSectionTitle">Entry</div>
           <div style={{ fontWeight: "bold" }}>Admission</div>

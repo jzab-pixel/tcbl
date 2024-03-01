@@ -1,15 +1,15 @@
 body{
-  background-color: #2b2e3c;
+  background-color: #fff;
  
 }
 
 .about-aboutSection {
-    background-color: #353848;
-    width: 40vw;
+    background-color: #eee;
+    width: 40vw; 
     font-family: "Chirp-regular", sans-serif;
     font-size: 1.2rem;
     border: 0.4px solid #ffffff; /* Subdued grey border */
-    color: #fff;
+    color: #000;
     line-height: 1.2;
     margin-bottom: 1rem;
     
@@ -18,13 +18,13 @@ body{
   .about-aboutSectionTitle {
     font-weight: bold;
     font-size: 1.8rem; 
-    color: #ffffff; /* Dark grey text color */
+    color: #000; /* Dark grey text color */
 
   }
   
   .about-aboutSectionText {
     margin: 1rem;
-    color: #ffffff; /* Slightly darker grey text color */
+    color: #000; /* Slightly darker grey text color */
   }
   
   .about-aboutHeader {
@@ -34,7 +34,7 @@ body{
   
   .about-aboutSectionBottom {
     border: 0.4px solid #ccc; /* Subdued grey border */
-    background-color: #353848;
+    background-color: #eee;
     width: 80vw;
     font-family: "Chirp-regular", sans-serif;
     font-size: 1.2rem;
@@ -51,7 +51,7 @@ body{
   a{
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
+    color: #222;
   }
 
   a:hover{

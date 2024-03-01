@@ -11,20 +11,45 @@
     align-items: center;
     
   }
+
+  #linkBox{
+    display: flex;
+
+  }
   
   .nav-link {
     font-size: 1.4rem;
     font-weight: 500;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: white;
+    color: #000;
     text-decoration: none;
     font-size: 1.2rem;
+    transition: .3s ease-in;
+    cursor: pointer;
   
   }
 
-  .nav-link:hover
-  {
-    opacity: 0.5;
-    cursor: pointer;
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }

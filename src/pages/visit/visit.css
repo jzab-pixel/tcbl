@@ -10,27 +10,27 @@
   }
   #welcomeBox
   {
+    margin-top:20px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
-    background-color: #353848;
-    margin-top: 30vh;
+    background-color: #eee;
     padding: 5rem;
-    color: #ffffff !important;
+
     
   }
 
 
   .visit-visitSectionTitle {
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #000;
 
   }
   
   .visit-visitSectionText {
     margin: 10px 0;
-    color: #ffffff;
+    color: #000;
 
   }
   

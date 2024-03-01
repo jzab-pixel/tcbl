@@ -15,32 +15,50 @@ function NavigationBar() {
       variant="dark"
       className="Navigation"
       /*#785e4b*/
-      style={{ backgroundColor: "#424863" , position: "sticky", top: "0"}}  
+      style={{ backgroundColor: "#ddd" , position: "sticky", top: "0"}}  
     >
       <Container className="navbar-container">
-        <Navbar.Brand as={Link} to="/" className="logo">
-          <img src={logo} alt="logo" className="logo-image" />
-        </Navbar.Brand>
-        <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/Visit" className="nav-link">
-            VISIT
-          </Nav.Link>
-          <Nav.Link as={Link} to="/MuseumGallery" className="nav-link">
-            EXHIBITIONS
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Learn" className="nav-link">
-            LEARN
-          </Nav.Link>
-          <Nav.Link as={Link} to="/GetInvolved" className="nav-link">
-            GET INVOLVED
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Support" className="nav-link">
-            SUPPORT
-          </Nav.Link>
-          <Nav.Link as={Link} to="/About" className="nav-link">
-            ABOUT
-          </Nav.Link>
-        </Nav>
+    
+          <Navbar.Brand as={Link} to="/" className="logo">
+            <img style={{filter: "invert(100%)"}} src={logo} alt="logo" className="logo-image" />
+          </Navbar.Brand>
+     
+      
+          <Nav className="ml-auto">
+           
+            <Nav.Link as={Link} to="/Visit" className="nav-link">
+              <span className="hover-underline-animation">
+                VISIT
+              </span>
+            </Nav.Link>
+          
+            <Nav.Link as={Link} to="/MuseumGallery" className="nav-link">
+              <span className="hover-underline-animation">
+                EXHIBITIONS
+              </span>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Learn" className="nav-link">
+              <span className="hover-underline-animation">
+                LEARN
+              </span>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/GetInvolved" className="nav-link">
+              <span className="hover-underline-animation">
+                GET INVOLVED
+              </span>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Support" className="nav-link">
+              <span className="hover-underline-animation">
+                SUPPORT
+              </span>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/About" className="nav-link">
+              <span className="hover-underline-animation">
+                ABOUT
+              </span>
+            </Nav.Link>
+          </Nav>
+     
       </Container>
     </Navbar>
   );
