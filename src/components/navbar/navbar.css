@@ -2,6 +2,11 @@
     
     width: 12rem;
     height: auto;
+    transition: 0.25s ease-in-out;
+  }
+
+  .logo-image:hover{
+    opacity: 0.6;
   }
   
   .navbar-container {
@@ -52,4 +57,9 @@
   .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
   }

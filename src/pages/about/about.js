@@ -90,12 +90,12 @@ function About() {
           among us. That event, titled "Gathering in the Moment: Mobilizing the
           Digital Black Church's Prophetic Witness" was hosted by Dr. Erika
           Gault and sponsored by the{" "}
-          <a href="https://digitalhumanities.arizona.edu" target="_blank">
+          <a className="hover-underline-animation " href="https://digitalhumanities.arizona.edu" target="_blank">
             {" "}
             Center for Digital Humanities
           </a>{" "}
           (Dr. Bryan Carter) and the{" "}
-          <a href="https://fteleaders.org" target="_blank">
+          <a className="hover-underline-animation " href="https://fteleaders.org" target="_blank">
             {" "}
             Forum for Theological Exploration
           </a>{" "}
