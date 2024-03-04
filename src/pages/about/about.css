@@ -33,7 +33,6 @@ body{
   }
   
   .about-aboutSectionBottom {
-    border: 0.4px solid #ccc; /* Subdued grey border */
     background-color: #eee;
     width: 80vw;
     font-family: "Chirp-regular", sans-serif;
@@ -41,8 +40,6 @@ body{
     column-count: 2;
     column-gap: 20px;
     overflow: auto;
-    border-radius: 5px;
-    
     line-height: 1.2;
   }
 
