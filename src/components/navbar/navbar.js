@@ -37,6 +37,7 @@ function NavigationBar() {
                 EXHIBITIONS
               </span>
             </Nav.Link>
+            {/*
             <Nav.Link as={Link} to="/Learn" className="nav-link">
               <span className="hover-underline-animation">
                 LEARN
@@ -47,11 +48,12 @@ function NavigationBar() {
                 GET INVOLVED
               </span>
             </Nav.Link>
+            
             <Nav.Link as={Link} to="/Support" className="nav-link">
               <span className="hover-underline-animation">
                 SUPPORT
               </span>
-            </Nav.Link>
+            </Nav.Link>*/}
             <Nav.Link as={Link} to="/About" className="nav-link">
               <span className="hover-underline-animation">
                 ABOUT

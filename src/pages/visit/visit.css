@@ -34,7 +34,31 @@
 
   }
   
+  #visitPicBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 30px;
+
+  }
+
+  #visitPicBox img{
+    padding-bottom: 30px;
+    width: 60%;
+
+  }
+
+  #visitDesc{
+    line-height: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
   body{
     height: 100vh;
   }
+

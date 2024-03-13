@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import { CloseButton } from "react-bootstrap";
+import defPic from '../../images/def.jpg'
 
 function About() {
   return (
@@ -44,6 +45,9 @@ function About() {
             <div className="about-aboutSectionText">
               <div className="about-aboutSectionTitle">Mission</div>
               Our Mission for The Tucson Center for Black Life is to re- create and sustain a cultural center and museum that is dedicated to advancing a comprehensive understanding of Black life in the Southwest; past, present, and future. 
+            </div>
+            <div>
+              <img src={defPic} id="aboutPic"/>
             </div>
           </div>
         </div>

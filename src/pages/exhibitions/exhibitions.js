@@ -63,7 +63,7 @@ const MuseumGallery = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button onClick={handleSearch}>
-          <Search />
+          < Search/>
         </button>
   
         <button onClick={handleResetSearch}>
