@@ -29,7 +29,7 @@ const ExhibitionCard = ({ title, date, status }) => (
 const ExhibitionGallery = ({ exhibitions }) => (
   <div className="gallery">
     {exhibitions.map((exhibition) => (
-      <ExhibitionCard key={exhibition.id} {...exhibition} />
+      <ExhibitionCard key={exhibition.id} {...exhibition}/>
     ))}
   </div>
 );

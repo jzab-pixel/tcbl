@@ -63,6 +63,7 @@ body {
     flex-wrap: wrap;
     justify-content: left;
     gap: 0.5%;
+
   }
   
   .card {
@@ -72,8 +73,21 @@ body {
     background-color: #eee;
     border: 1px solid #ccc;
     color: #000;
+    /*
+    opacity: 0; 
+    animation: fadeIn 0.5s ease-in forwards; 
+    animation-delay: 0.1s;*/
   }
-  
+/*
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+*/
   .card h3 {
     margin-top: 0;
   }
