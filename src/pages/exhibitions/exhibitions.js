@@ -3,7 +3,7 @@ import { Search } from 'bootstrap-icons-react';
 import { FaPencilAlt } from 'react-icons/fa';
 import "./exhibitions.css"; // Import the CSS file
 import defPic from '../../images/def.jpg'
-
+const defDesc = "Lorem think ipsum dolor sit amet, consectetur adipiscing elit. Sed think commodo mauris, sit amet fermentum lorem dapibus at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer think ultricies ipsum in turpis pretium, id think volutpat quam venenatis. Nulla facilisi. Duis think vehicula, think tortor sit amet finibus tristique, nisi tellus eleifend mauris, ac ullamcorper sapien leo sed ex.";
 const exhibitionsData = [
   { id: 1, title: "Exhibition 1", date: "2024-01-15", status: "current" },
   { id: 2, title: "Exhibition 2", date: "2024-03-10", status: "upcoming" },
@@ -21,8 +21,9 @@ const ExhibitionCard = ({ title, date, status }) => (
   <div className="card">
     <h3>{title}</h3>
     <img  src={defPic} className="exhibitionsPic"/>
-    <p>Date: {date}</p>
-    <p>Status: {status}</p>
+    <p><strong>Date:</strong> {date}</p>
+    <p><strong>Status:</strong> {status}</p>
+    <p><strong>Description:</strong> {defDesc}</p>
   </div>
 );
 
