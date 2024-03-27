@@ -6,7 +6,7 @@ function Homepage() {
   const navigate = useNavigate();
 
   return (
-    <div className="homepageContainer">
+    <div className="homepageContainer" style={{ transition: 'all 0.4s ease-in' }}>
      <div className="visit-visitSection"  id="welcomeBox">
         <div className="visit-visitSectionTitle"style={{color:"#000"}}>
           Welcome to TCBL
